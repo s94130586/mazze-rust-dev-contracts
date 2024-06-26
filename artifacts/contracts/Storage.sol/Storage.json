@@ -1,0 +1,73 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Storage",
+  "sourceName": "contracts/Storage.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint64",
+          "name": "index",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "assertValue",
+      "outputs": [],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint64",
+          "name": "index",
+          "type": "uint64"
+        }
+      ],
+      "name": "change",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint64",
+          "name": "index",
+          "type": "uint64"
+        }
+      ],
+      "name": "reset",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint64",
+          "name": "index",
+          "type": "uint64"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b506101bd806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806307c488ff146100515780631d8c311f14610074578063d9a9811614610093578063e365981c146100a6575b600080fd5b61007261005f36600461013b565b67ffffffffffffffff1680546001019055565b005b61007261008236600461013b565b600167ffffffffffffffff90911655565b6100726100a136600461015d565b6100c5565b6100726100b436600461013b565b600067ffffffffffffffff90911655565b67ffffffffffffffff821680548281146101185760405162461bcd60e51b815260206004820152601060248201526f556e65787065637465642076616c756560801b604482015260640160405180910390fd5b50505050565b803567ffffffffffffffff8116811461013657600080fd5b919050565b60006020828403121561014d57600080fd5b6101568261011e565b9392505050565b6000806040838503121561017057600080fd5b6101798361011e565b94602093909301359350505056fea26469706673582212207958beb2dc15307fee4ea3eaa9a3921012b716aecf07a5d7ce0507e6c6cc166464736f6c63430008130033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c806307c488ff146100515780631d8c311f14610074578063d9a9811614610093578063e365981c146100a6575b600080fd5b61007261005f36600461013b565b67ffffffffffffffff1680546001019055565b005b61007261008236600461013b565b600167ffffffffffffffff90911655565b6100726100a136600461015d565b6100c5565b6100726100b436600461013b565b600067ffffffffffffffff90911655565b67ffffffffffffffff821680548281146101185760405162461bcd60e51b815260206004820152601060248201526f556e65787065637465642076616c756560801b604482015260640160405180910390fd5b50505050565b803567ffffffffffffffff8116811461013657600080fd5b919050565b60006020828403121561014d57600080fd5b6101568261011e565b9392505050565b6000806040838503121561017057600080fd5b6101798361011e565b94602093909301359350505056fea26469706673582212207958beb2dc15307fee4ea3eaa9a3921012b716aecf07a5d7ce0507e6c6cc166464736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

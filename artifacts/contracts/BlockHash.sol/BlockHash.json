@@ -1,0 +1,30 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "BlockHash",
+  "sourceName": "contracts/BlockHash.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "number",
+          "type": "uint256"
+        }
+      ],
+      "name": "getBlockHash",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50609c8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063ee82ac5e14602d575b600080fd5b603c6038366004604e565b4090565b60405190815260200160405180910390f35b600060208284031215605f57600080fd5b503591905056fea26469706673582212208904e83430f50e304447f185e01de520d4d1c6270dd6eaeb453731ecfd7d487364736f6c63430008130033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063ee82ac5e14602d575b600080fd5b603c6038366004604e565b4090565b60405190815260200160405180910390f35b600060208284031215605f57600080fd5b503591905056fea26469706673582212208904e83430f50e304447f185e01de520d4d1c6270dd6eaeb453731ecfd7d487364736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
